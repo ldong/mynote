@@ -1,0 +1,10 @@
+mynote
+======
+
+mynote是一个浏览markdown笔记的小型web应用，自带web服务器(使用Python的BaseHttpServer)，特点是简单小巧。
+
+Start
+=====
+
+修改run.bat (Windows)或者run.sh(Linux)，搞定python的路径。 --notes-file-path的值用自己的笔记代替就行了。再运行即可。
+
