@@ -27,7 +27,6 @@ class IntegratedHTTPRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 
     def dispatch(self):
         for pattern, handler in uri.uri_mapping:
-            print pattern, handler
             matcher = re.match(pattern, self.path)
             if matcher:
                 self.perform_handler(handler, matcher.groupdict())
