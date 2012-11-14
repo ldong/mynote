@@ -6,5 +6,12 @@ mynote是一个浏览markdown笔记的小型web应用，自带web服务器(使�
 Start
 =====
 
-修改run.bat (Windows)或者run.sh(Linux)，搞定python的路径。 --notes-file-path的值用自己的笔记代替就行了。再运行即可。
+修改run.bat (Windows)或者run.sh(Linux)，搞定python的路径。 --notes-file-path的值用自己的笔记代替就行了。再运行即可。例如：下面的参数表示笔记存放在/home/admin/note/notes目录下
+
+    --notes-file-path=/home/admin/note/notes
+
+运行后，打开浏览器访问 http://localhost:8000/，会自动显示--notes-file-path目录下所有的目录。
+
+**注意：笔记文件的扩展名必须是md**
+
 
