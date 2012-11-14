@@ -14,4 +14,7 @@ Start
 
 **注意：笔记文件的扩展名必须是md**
 
+其他
+====
+- 修改样式 把static/markdown.css的内容换成你喜欢的markdown css。网上有很多现成的CSS。自带的CSS也是从Google到的，不过我忘了来源……
 
